@@ -14,8 +14,8 @@
     border-radius: 100%;
 }
 
-:a {
-    --width: 150px;
+:root {
+    --width: 350px;
 }
 
 .pageMainDiv {
@@ -27,8 +27,8 @@
     background-color: #020203;
     margin-top: 100px;
     text-align: center;
-    width: 300px;
-    height: 270px;
+    width: var(--width);
+    height: var(--width);
     border-radius: 10%;
 
     position: absolute;
@@ -38,7 +38,7 @@
 }
 
 .video {
-    width: 300px;
+    width: var(--width);
 }
 
 .pageMainDivTitle {
@@ -46,5 +46,5 @@
 }
 
 .why_are_you_here {
-    margin-top: 50px;
+    margin-top: 80px;
 }
