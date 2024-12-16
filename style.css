@@ -14,6 +14,10 @@
     border-radius: 100%;
 }
 
+:a {
+    --width: 150px;
+}
+
 .pageMainDiv {
     color: aliceblue;
     font-size: 36px;
@@ -23,14 +27,18 @@
     background-color: #020203;
     margin-top: 100px;
     text-align: center;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 270px;
     border-radius: 10%;
 
     position: absolute;
-    top: 60%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%,-60%);
+}
+
+.video {
+    width: 300px;
 }
 
 .pageMainDivTitle {
